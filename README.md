@@ -27,7 +27,6 @@ PROJET07/
 ├── 02_clustering_analyse_non_supervisee.ipynb
 ├── 03_approche_semi_supervisee.ipynb
 ├── 03_approche_semi_supervisee_convnext.ipynb
-├── support_presentation_recommandations.md
 ├── Dockerfile              # Configuration de l'image Docker
 ├── docker-compose.yml      # Configuration Docker Compose
 ├── start.bat               # Lance Docker (vérifie installation, construit et démarre)
