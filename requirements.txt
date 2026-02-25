@@ -1,0 +1,28 @@
+# Auteur : Gregory CRESPIN
+# Projet : Labellisez et appliquez des approches semi-supervisees en traitement d'images (BrainScanAI)
+# Date : 08/02/2026
+# Python 3.9+
+
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Deep Learning & Vision
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ML & Clustering
+scikit-learn>=1.3.0
+umap-learn>=0.5.4
+
+# Optional (images)
+opencv-python>=4.8.0
+
+# Jupyter
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+tqdm>=4.65.0

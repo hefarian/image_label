@@ -1,0 +1,18 @@
+# Auteur : Gregory CRESPIN
+# Projet : Labellisez et appliquez des approches semi-supervisees en traitement d'images (BrainScanAI)
+# Date : 08/02/2026
+services:
+  app:
+    build: .
+    image: projet07:latest
+    container_name: projet07
+    environment:
+      - JUPYTER_TOKEN=greg2026
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+    stdin_open: true
+    tty: true
